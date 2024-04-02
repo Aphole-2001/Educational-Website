@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px , rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+nav .left .logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+nav .left .links {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+nav .buttons {
+    display: flex;
+    gap: 14px;    
+}
+
+nav .buttons a {
+    background-color: #e4a8d3;
+    padding: 10px;
+    color: azure;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+nav .buttons a:hover {
+    color: #6f436f;
+}
